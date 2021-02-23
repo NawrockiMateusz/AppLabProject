@@ -39,5 +39,39 @@
     }
     .header__photoImage {
         width: 100%;
+        margin-bottom: 30px;
+    }
+    .offer__topic {
+        padding: 10px;
+        margin-top: 150px;
+        font-size: 1.7em;
+    }
+    .offer__container {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .offer__icon {
+        padding: 10px;
+    }
+    .offer__text {
+        font-size: 1em;
+        margin-bottom: 30px;
+        max-width: 60%;
+    }
+    .features {
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .features__container {
+        max-width: 90%;
+        text-align: center;
+    }
+    .features__picture {
+        margin-top: 50px;
+        width: 100%;
+    }
+    .features__containerPicture {
+        text-align: center;
     }
 }
