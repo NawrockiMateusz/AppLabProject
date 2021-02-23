@@ -1,0 +1,74 @@
+.header {
+    height: 100vh;
+    background-image: url(../images/banner/banner.png);
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+.header__list {
+    display: flex;
+}
+
+.header__listItem {
+    margin-right: 20px;
+    list-style: none;
+}
+
+.header__logo {
+    align-self: center;
+}
+
+.header__link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header__button {
+    color: white;
+    background-color: #7cb4e7;
+    border: none;
+    padding: 15px 25px;
+}
+
+.header__button:hover {
+    background-color: #7cb3e7b2;
+}
+
+.hedaer__articleContainer {
+    padding: 20px;
+}
+
+.header__article {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hedaer__articleTopic {
+    letter-spacing: 2px;
+    font-size: 3em;
+}
+
+.hedaer__articleDescription {
+    font-weight: 100;
+    font-size: 1.2em;
+}
+
+.hedaer__articleButton {
+    color: white;
+    border: none;
+    background-color: #5CDADD;
+    padding: 15px 25px;
+    margin-top: 40px;
+}
+
+.hedaer__articleButton:hover {
+    background-color: #5cdbddad;
+}
