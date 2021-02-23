@@ -39,7 +39,9 @@
     }
     .header__photoImage {
         width: 100%;
-        margin-bottom: 30px;
+    }
+    .offer {
+        margin-top: 75px;
     }
     .offer__topic {
         padding: 10px;
@@ -57,6 +59,9 @@
         font-size: 1em;
         margin-bottom: 30px;
         max-width: 60%;
+    }
+    .offer__header {
+        margin-top: 50px;
     }
     .features {
         flex-direction: column;
