@@ -1,0 +1,51 @@
+.offer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.offer__topic {
+    text-align: center;
+}
+
+.offer__container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.offer__block {
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.offer__topic {
+    text-align: center;
+    font-size: 3em;
+    padding: 50px;
+}
+
+.offer__text {
+    text-align: center;
+    font-size: 1.2em;
+    color: #aaa;
+    line-height: 1.5;
+}
+
+.manage {
+    background-color: #0F89F7;
+}
+
+.establish {
+    background-color: #37EF8D;
+}
+
+.powerful {
+    background-color: #FD935D;
+}
+
+.offer__icon {
+    padding: 20px;
+    border-radius: 15px;
+}
