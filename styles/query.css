@@ -1,0 +1,43 @@
+@media (max-width: 760px) {
+    .header {
+        height: 100vh;
+    }
+    .header__nav {
+        display: none;
+    }
+    .header__button {
+        display: none;
+    }
+    .header__container {
+        background: black;
+        padding: 5px;
+        margin-bottom: 25px;
+    }
+    .header__article {
+        display: flex;
+        flex-direction: column;
+    }
+    .header__articleTopic {
+        margin: 0;
+        font-size: 1.7em;
+        font-weight: 400;
+        text-align: center;
+    }
+    .header__articleDescription {
+        font-size: 1em;
+        text-align: center;
+    }
+    .header__articleButtonContainer {
+        text-align: center;
+    }
+    .header__articleButton {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .header__photoContainer {
+        text-align: center;
+    }
+    .header__photoImage {
+        width: 100%;
+    }
+}
