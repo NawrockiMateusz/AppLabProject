@@ -36,6 +36,7 @@
     background-color: #7cb4e7;
     border: none;
     padding: 15px 25px;
+    border-radius: 10px;
 }
 
 .header__button:hover {
@@ -68,6 +69,7 @@
     background-color: #5CDADD;
     padding: 15px 25px;
     margin-top: 40px;
+    border-radius: 10px;
 }
 
 .hedaer__articleButton:hover {
