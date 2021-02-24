@@ -12,6 +12,10 @@
     margin-bottom: 75px;
 }
 
+.hamburger {
+    display: none;
+}
+
 .header__list {
     display: flex;
 }

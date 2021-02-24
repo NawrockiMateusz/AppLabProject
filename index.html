@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./styles/offer.css">
     <link rel="stylesheet" href="./styles/features.css">
     <link rel="stylesheet" href="./styles/query.css">
+    <script defer src="./script.js"></script>
 </head>
 
 <body>
@@ -24,17 +25,23 @@
             <div class="header__logo">
                 <img src="./images/logo.png" alt="logo AppLab">
             </div>
-            <nav class="header__nav">
-                <ul class="header__list">
-                    <li class="header__listItem"><a href="#" class="header__link">Home</a></li>
-                    <li class="header__listItem"><a href="#" class="header__link">Features</a></li>
-                    <li class="header__listItem"><a href="#" class="header__link">Pricing</a></li>
-                    <li class="header__listItem"><a href="#" class="header__link">Blog</a></li>
-                    <li class="header__listItem"><a href="#" class="header__link">Pages</a></li>
-                    <li class="header__listItem"><a href="#" class="header__link">Contact</a></li>
+            <nav class="header__nav navigation">
+                <ul class="header__list navigation__list">
+                    <li class="header__listItem navigation__item"><a href="#" class="header__link">Home</a></li>
+                    <li class="header__listItem navigation__item"><a href="#" class="header__link">Features</a></li>
+                    <li class="header__listItem navigation__item"><a href="#" class="header__link">Pricing</a></li>
+                    <li class="header__listItem navigation__item"><a href="#" class="header__link">Blog</a></li>
+                    <li class="header__listItem navigation__item"><a href="#" class="header__link">Pages</a></li>
+                    <li class="header__listItem navigation__item"><a href="#" class="header__link">Contact</a></li>
                 </ul>
             </nav>
-            <div class="header__buttonContainer"><button class="header__button">Download</button></div>
+            <div class="header__buttonContainer"><button class="header__button">Download</button>
+                <button class="hamburger">
+                    <span class="hamburger__box">
+                        <span class="hamburger__inner"></span>
+                    </span>
+                </button>
+            </div>
         </section>
         <article class="header__article">
             <section class="header__articleContainer">
