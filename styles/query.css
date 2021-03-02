@@ -61,6 +61,7 @@
     .offer__container {
         flex-direction: column;
         margin: 0 auto;
+        padding-top: 20px;
     }
     .offer__icon {
         padding: 10px;
@@ -71,7 +72,7 @@
         max-width: 60%;
     }
     .offer__header {
-        margin-top: 50px;
+        margin-top: 80px;
     }
     .features {
         flex-direction: column;
@@ -166,5 +167,40 @@
     a {
         text-decoration: none;
         color: black;
+    }
+    .review {
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+    .review__text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: rgba(66, 148, 202, 0.87);
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .review__image {
+        width: 100%;
+        background-position: center;
+        height: 400px;
+    }
+    .review__header {
+        font-size: 20px;
+        margin-bottom: 0;
+        font-weight: bold;
+        letter-spacing: 0;
+    }
+    .review__description {
+        line-height: 1;
+        padding: 10px 20px 10px;
+    }
+    .review__opinion {
+        font-weight: normal;
     }
 }
