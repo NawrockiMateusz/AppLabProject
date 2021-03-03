@@ -1,0 +1,46 @@
+.link {
+    height: 500px;
+    background: #1F1F1F;
+    color: #909CA0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.link__logo {
+    margin-bottom: 40px;
+}
+
+.link__mainText {
+    font-size: 20px;
+}
+
+.link__header {
+    color: white;
+    font-size: 25px;
+}
+
+.link__links {
+    text-decoration: none;
+    color: #909CA0;
+}
+
+.link__links:hover {
+    color: white;
+}
+
+.link__off {
+    opacity: 0;
+}
+
+.link__iconSocial {
+    padding-top: 20px;
+}
+
+.fa-facebook, .fa-twitter-square, .fa-instagram-square {
+    padding-right: 20px;
+}
+
+.link__icon {
+    color: #909CA0;
+}
