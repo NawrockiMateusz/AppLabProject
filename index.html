@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="./styles/features.css">
     <link rel="stylesheet" href="./styles/review.css">
     <link rel="stylesheet" href="./styles/price.css">
+    <link rel="stylesheet" href="./styles/download.css">
     <link rel="stylesheet" href="./styles/query.css">
     <script defer src="./script.js"></script>
 </head>
@@ -101,15 +102,19 @@
         </section>
     </section>
     <article class="price">
-        <p class="price__title">Unlock full Power</p>
-        <p class="price__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta itaque numquam
-            recusandae, qui assumenda
-            accusamus reiciendi.</p>
+        <div class="price__headerBlock">
+            <p class="price__title">Unlock full Power</p>
+            <p class="price__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit tenetur itaque
+                quo doloribus temporibus quaerat eum ipsam amet est architecto blanditiis eius et sapiente alias,
+                inventore deleniti? Distinctio sunt ratione blanditiis nisi deleniti possimus voluptas tempore repellat,
+                ipsa atque consequatur.
+                accusamus reiciendi.</p>
+        </div>
         <div class="price__container">
             <div class="price__section">
-                <header class="price__header">
+                <header class="price__header price__header--oneUser">
                     <p class="price__plan">Basic</p>
-                    <p class="price__cost">$06</p>
+                    <p class="price__cost--oneUser">$06</p>
                 </header>
                 <section class="price__main">
                     <p class="price__option">One user</p>
@@ -120,9 +125,9 @@
                 </section>
             </div>
             <div class="price__sectionMain">
-                <header class="price__header">
+                <header class="price__header price__header--team">
                     <p class="price__plan">Team</p>
-                    <p class="price__cost">$06</p>
+                    <p class="price__cost--team">$06</p>
                 </header>
                 <section class="price__main">
                     <p class="price__option">One user</p>
@@ -134,9 +139,9 @@
                 </section>
             </div>
             <div class="price__section">
-                <header class="price__header">
+                <header class="price__header price__header--business">
                     <p class="price__plan">Business</p>
-                    <p class="price__cost">$06</p>
+                    <p class="price__cost--business">$06</p>
                 </header>
                 <section class="price__main">
                     <p class="price__option">One user</p>
@@ -148,6 +153,13 @@
             </div>
         </div>
     </article>
+    <section class="download">
+        <p class="download__text">Get start from now <br /> and increase productivitys</p>
+        <div class="download__containerImages">
+            <a href="#"><img src="./images/app.svg" alt="applestore download button" class="download__apple"></a>
+            <a href="#"><img src="./images/play.svg" alt="googleplay download button" class="download__googlePlay"></a>
+        </div>
+    </section>
 
 
 

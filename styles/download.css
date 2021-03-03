@@ -1,0 +1,16 @@
+.download {
+    background: #5DB2FF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+}
+
+.download__text {
+    color: white;
+    font-size: 46px;
+}
+
+.download__apple {
+    margin-right: 15px;
+}

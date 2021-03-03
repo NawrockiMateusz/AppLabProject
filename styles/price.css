@@ -1,0 +1,97 @@
+.price {
+    margin-bottom: 75px;
+}
+
+.price__headerBlock {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.price__title {
+    font-size: 36px;
+    color: #666;
+    text-align: center;
+}
+
+.price__description {
+    text-align: center;
+    padding: 0 250px;
+}
+
+.price__container {
+    display: flex;
+    justify-content: center;
+}
+
+.price__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.price__plan {
+    font-weight: bold;
+    color: #444;
+    font-size: 18px;
+}
+
+.price__cost--oneUser {
+    color: #258BF5;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.price__cost--team {
+    font-weight: bold;
+    color: #FDB36E;
+    font-size: 18px;
+}
+
+.price__cost--business {
+    color: #2FD471;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.price__header--oneUser {
+    background: #E9F4FE;
+}
+
+.price__header--team {
+    background: #FEF4EE;
+}
+
+.price__header--business {
+    background: #E8FCF1;
+}
+
+.price__option {
+    color: #666;
+}
+
+.price__option, .price__buttonContainer {
+    text-align: center;
+    margin-bottom: 16px;
+    margin: 25px;
+}
+
+.price__section {
+    padding: 30px 0;
+}
+
+.price__main {
+    box-shadow: 11px 9px 5px 0px rgba(238, 237, 242, 0.59);
+    padding-bottom: 10px;
+}
+
+.price__button {
+    color: #87C6FF;
+    background: white;
+    border: 1px solid #87C6FF;
+    padding: 10px 35px;
+    border-radius: 8px;
+    font-size: 16px;
+}
