@@ -1,4 +1,4 @@
-@media (max-width: 760px) {
+@media (min-width: 1px) and (max-width: 760px) {
     .header {
         height: 100vh;
     }
@@ -241,5 +241,137 @@
     }
     .price__section, .price__sectionMain {
         padding: 15px;
+    }
+}
+
+@media (min-width: 761px) and (max-width: 900px) {
+    *, *::before, *::after {
+        box-sizing: inherit;
+    }
+    .header__button {
+        display: none;
+    }
+    .hamburger {
+        padding: 10px;
+        display: inline-block;
+        cursor: pointer;
+        background-color: transparent;
+        border: 0;
+        margin: 0;
+    }
+    .hamburger, .navigation {
+        transition: transform .3s .1s ease-in-out;
+    }
+    .hamburger__box {
+        width: 35px;
+        height: 24px;
+        display: inline-block;
+        position: relative;
+    }
+    .hamburger__inner {
+        width: 100%;
+        height: 3px;
+        background-color: white;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        transition: background-color .1s .2s ease-in-out;
+    }
+    .hamburger__inner::before, .hamburger__inner::after {
+        width: 100%;
+        height: 3px;
+        background-color: white;
+        position: absolute;
+        content: '';
+        left: 0;
+        transition: transform .2s .2s ease-in-out;
+    }
+    .hamburger__inner::before {
+        top: -10px;
+    }
+    .hamburger__inner::after {
+        top: 10px;
+    }
+    .hamburger--active .hamburger__inner {
+        background-color: transparent;
+    }
+    .hamburger--active .hamburger__inner:before {
+        transform: translateY(10px) rotate(45deg);
+    }
+    .hamburger--active .hamburger__inner:after {
+        transform: translateY(-10px) rotate(-45deg);
+    }
+    .navigation {
+        background-color: black;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        transform: translateY(-350px);
+    }
+    .navigation--active {
+        transform: translateX(0px);
+    }
+    .navigation__list {
+        margin-top: 30px;
+        list-style: none;
+    }
+    .navigation__item {
+        margin-bottom: 20px;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    .header__link {
+        font-size: 20px;
+    }
+    .grid2x2 {
+        min-height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .grid2x2>div {
+        display: flex;
+        flex-basis: calc(50% - 40px);
+        justify-content: center;
+        flex-direction: column;
+    }
+    .grid2x2>div>div {
+        display: flex;
+        flex-direction: row;
+    }
+    .box {
+        margin: 20px;
+    }
+    .review__text {
+        height: 604px;
+    }
+    .review__image {
+        height: 600px;
+    }
+    .download__text {
+        padding-left: 20px;
+    }
+    .download__apple {
+        margin-bottom: 10px;
+    }
+    .link {
+        height: 600px;
+    }
+    .features__containerPicture {
+        text-align: center;
+        padding: 30% 0;
+    }
+    .features__topic, .features__description, .feautres__containerButton {
+        text-align: center;
+    }
+    .features__container {
+        padding-left: 40px;
+    }
+    .features {
+        margin: 0;
     }
 }
