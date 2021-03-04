@@ -33,6 +33,11 @@
     color: white;
     text-decoration: none;
     font-size: 18px;
+    padding-bottom: 3px;
+}
+
+.header__link:hover {
+    border-bottom: 2px solid white;
 }
 
 .header__button {

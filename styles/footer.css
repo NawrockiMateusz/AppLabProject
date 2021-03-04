@@ -1,0 +1,16 @@
+.footer {
+    background: black;
+    color: white;
+}
+
+.footer__text {
+    margin: 0;
+    padding: 35px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: #5DB2FF;
+}

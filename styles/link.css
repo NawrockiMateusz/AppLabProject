@@ -44,3 +44,7 @@
 .link__icon {
     color: #909CA0;
 }
+
+.link__icon:hover {
+    color: white;
+}
