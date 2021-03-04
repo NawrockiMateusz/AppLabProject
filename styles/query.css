@@ -104,9 +104,6 @@
     .hamburger, .navigation {
         transition: transform .3s .1s ease-in-out;
     }
-    .hamburger--active {
-        transform: translateY(350px);
-    }
     .hamburger__box {
         width: 35px;
         height: 24px;
@@ -244,13 +241,5 @@
     }
     .price__section, .price__sectionMain {
         padding: 15px;
-    }
-    
-    
-}
-
-@media (max-width: 1000px){
-    .features{
-
     }
 }
