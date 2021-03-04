@@ -203,4 +203,54 @@
     .review__opinion {
         font-weight: normal;
     }
+    .price__description {
+        padding: 0 20px;
+    }
+    .price__container {
+        flex-direction: column;
+    }
+    .download {
+        flex-direction: column;
+    }
+    .download__containerImages {
+        display: flex;
+        flex-direction: column;
+    }
+    .download__text {
+        font-size: 32px;
+        text-align: center;
+        padding: 0 20px;
+    }
+    .download__apple {
+        text-align: center;
+    }
+    a {
+        margin: 0 auto;
+    }
+    .download__googlePlay {
+        margin-top: 10px;
+    }
+    .download__text {
+        margin-bottom: 0;
+    }
+    .link {
+        display: flex;
+        flex-direction: column;
+    }
+    .link {
+        height: 950px;
+        align-items: flex-start;
+        padding: 20px;
+    }
+    .price__section, .price__sectionMain {
+        padding: 15px;
+    }
+    
+    
+}
+
+@media (max-width: 1000px){
+    .features{
+
+    }
 }
